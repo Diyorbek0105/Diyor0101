@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+body{
+    background-color: rgb(103, 103, 243);
+}
+.link {
+    background-color: rgb(23, 23, 23);
+    padding: 5px;
+}
+.link ul a{
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.link {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.link ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
